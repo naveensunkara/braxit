@@ -2523,10 +2523,10 @@ hr {
 .preloader .preloader-circle {
   width: 100px;
   height: 100px;
+  border-top-color: #054497;
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-top-color: #FF3514;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -3212,6 +3212,10 @@ hr {
 /* line 87, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .theme-color {
   color: #FF3514;
+}
+
+.header-area .header-bottom .logo img {
+  width: 100px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4046,6 +4050,8 @@ hr {
 .about-low-area .about-right-cap .about-right-img img {
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #00000026;
 }
 
 /* line 79, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_about.scss */
@@ -4848,7 +4854,7 @@ hr {
 }
 
 /* line 12, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
-.categories-area .single-cat .cat-icon img {
+.categories-area .single-cat .cat-icon img, .categories-area .single-cat .cat-icon svg {
   margin-bottom: 30px;
   display: block;
 }
@@ -8657,5 +8663,3 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
-
-/*# sourceMappingURL=style.css.map */
