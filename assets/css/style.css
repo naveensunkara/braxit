@@ -3139,6 +3139,8 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-color: #00000014;
+  background-blend-mode: overlay;
 }
 
 /* line 1065, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
@@ -4880,7 +4882,7 @@ hr {
 }
 
 /* line 19, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
-.categories-area .single-cat .cat-cap h5 > a {
+.categories-area .single-cat .cat-cap h5 > a, .categories-area .single-cat .cat-cap > h5 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 21px;
@@ -4894,14 +4896,14 @@ hr {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 19, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
-  .categories-area .single-cat .cat-cap h5 > a {
+  .categories-area .single-cat .cat-cap h5 > a, .categories-area .single-cat .cat-cap > h5 {
     font-size: 21px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 19, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
-  .categories-area .single-cat .cat-cap h5 > a {
+  .categories-area .single-cat .cat-cap h5 > a, .categories-area .single-cat .cat-cap > h5 {
     font-size: 23px;
   }
 }
@@ -4925,9 +4927,8 @@ hr {
 }
 
 /* line 44, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_services_section.scss */
-.categories-area .single-cat .cat-cap a {
+.categories-area .single-cat .cat-cap a, .categories-area .single-cat .cat-cap h5 {
   color: #1c165c;
-  font-size: 16px;
   font-weight: 600;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
