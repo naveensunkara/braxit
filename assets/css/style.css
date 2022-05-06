@@ -121,6 +121,10 @@
   width: 220px;
 }
 
+.box-shadow {
+  box-shadow: 0 23px 46px rgb(20 12 64 / 10%);
+}
+
 /*--
     - Overlay
 ------------------------------------------*/
@@ -4403,7 +4407,6 @@ hr {
 /* line 4, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_contact_form.scss */
 .contact-form .form-wrapper {
   padding: 65px;
-  box-shadow: 0 23px 46px rgba(20, 12, 64, 0.1);
 }
 
 @media (max-width: 575px) {
