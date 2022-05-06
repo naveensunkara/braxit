@@ -7765,6 +7765,13 @@ del {
   overflow-x: scroll;
 }
 
+.table-sm td, .table-sm th {
+  padding: 15px 30px;
+}
+.table-sm {
+  min-width: 50%;
+}
+
 /* line 325, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_elements.scss */
 .progress-table {
   background: #f9f9ff;
@@ -7913,8 +7920,8 @@ del {
   width: 14px;
   height: 14px;
   border: 3px solid #140C40;
-  background: #fff;
-  top: 4px;
+  background: #140C40;
+  top: calc(50% - 7px);
   left: 0;
   border-radius: 50%;
 }
