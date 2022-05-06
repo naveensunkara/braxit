@@ -112,7 +112,7 @@
 
 
 
-/* 4. Testimonial Active*/
+/* 4. Testimonial Active
 var testimonial = $('.h1-testimonial-active');
   if(testimonial.length){
   testimonial.slick({
@@ -156,7 +156,7 @@ var testimonial = $('.h1-testimonial-active');
       ]
     });
   }
-
+*/
 
 /* 6. Nice Selectorp  */
   var nice_Select = $('select');
@@ -286,53 +286,11 @@ var testimonial = $('.h1-testimonial-active');
           }
         });
       }
-// 12 Pop Up Video
-    var popUp = $('.popup-video');
-    if(popUp.length){
-      popUp.magnificPopup({
-        type: 'iframe'
-      });
-    }
-
-/* 13. counterUp*/
-    $('.counter').counterUp({
-      delay: 10,
-      time: 3000
-    });
 
 /* 14. Datepicker */
   $('#datepicker1').datepicker();
 
 // 15. Time Picker
   $('#timepicker').timepicker();
-
-//16. Overlay
-  $(".snake").snakeify({
-    speed: 200
-  });
-
-
-//17.  Progress barfiller
-
-  $('#bar1').barfiller();
-  $('#bar2').barfiller();
-  $('#bar3').barfiller();
-  $('#bar4').barfiller();
-  $('#bar5').barfiller();
-  $('#bar6').barfiller();
-
-
-
-
-// Modal Activation
-    $('.search-switch').on('click', function () {
-      $('.search-model-box').fadeIn(400);
-    });
-
-    $('.search-close-btn').on('click', function () {
-      $('.search-model-box').fadeOut(400, function () {
-          $('#search-input').val('');
-      });
-    });
 
 })(jQuery);
