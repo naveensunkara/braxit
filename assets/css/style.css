@@ -6170,6 +6170,9 @@ hr {
     height: 400px;
     border-radius: 5px;
   }
+  .quality-testing {
+    background-position: 0 -70px;
+  }
 }
 
 /* line 704, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_blog_page.scss */
